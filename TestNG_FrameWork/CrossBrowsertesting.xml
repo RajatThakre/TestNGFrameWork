@@ -1,0 +1,16 @@
+<suite name="CrossBrowser">
+	<test name ="ChromeTest">
+		<parameter name ="Browser" value="chrome">
+			<classes>
+				<class name ="mar22.CrossBrowser"></class>
+			</classes>
+		</parameter>
+	</test>
+	<test name ="FirefoxTest">
+		<parameter name ="Browser" value="firefox">
+			<classes>
+				<class name ="mar22.CrossBrowser"></class>
+			</classes>
+		</parameter>
+	</test>
+</suite>
